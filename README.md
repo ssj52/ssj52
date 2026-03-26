@@ -95,7 +95,7 @@ class Developer:
 
 <div align="center">
 
-[![trophy](https://github-profile-trophy.vercel.app/?username=ssj52&theme=darkhub&no-frame=true&no-bg=true&margin-w=8&column=7&rank=SECRET,SSS,SS,S,AAA,AA,A,B,C)](https://github.com/ryo-ma/github-profile-trophy)
+[![trophy](https://github-profile-trophy.vercel.app/?username=ssj52&theme=darkhub&no-frame=true&no-bg=true&margin-w=8&column=7)](https://github.com/ryo-ma/github-profile-trophy)
 
 </div>
 
@@ -105,8 +105,8 @@ class Developer:
 
 <div align="center">
 
-<img src="https://github-readme-stats.vercel.app/api?username=ssj52&show_icons=true&theme=midnight-purple&hide_border=true&bg_color=0D1117&title_color=7C3AED&icon_color=A855F7&text_color=ffffff&count_private=true&include_all_commits=true&rank_icon=github" height="170"/>
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=ssj52&layout=compact&theme=midnight-purple&hide_border=true&bg_color=0D1117&title_color=7C3AED&text_color=ffffff&langs_count=8" height="170"/>
+<img src="https://github-readme-stats.vercel.app/api?username=ssj52&show_icons=true&theme=midnight-purple&hide_border=true&bg_color=0D1117&title_color=7C3AED&icon_color=A855F7&text_color=ffffff&count_private=true&include_all_commits=true" height="170"/>
+<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=ssj52&layout=compact&theme=midnight-purple&hide_border=true&bg_color=0D1117&title_color=7C3AED&text_color=ffffff&langs_count=8&cache_seconds=1800" height="170"/>
 
 </div>
 
