@@ -11,23 +11,19 @@ on:
 jobs:
   build:
     runs-on: ubuntu-latest
-    name: Generate 3D Contribution Graph
-
+    permissions:
+      contents: write
     steps:
       - uses: actions/checkout@v3
 
-      - uses: yoshi-code-bot/github-profile-3d-contrib@v0.7.1
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      - uses: lowlighter/metrics@latest
         with:
-          username: ssj52
-          max_quantity_of_commits_color: 10
-          type: "svg"
-
-      - name: Push output
-        uses: crazy-max/ghaction-github-pages@v3
-        with:
-          target_branch: output
-          build_dir: profile-3d-contrib
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          token: ${{ secrets.GITHUB_TOKEN }}
+          user: ssj52
+          base: ""
+          plugin_isocalendar: yes
+          plugin_isocalendar_duration: full-year
+          filename: profile-3d.svg
+          output_action: commit
+          committer_branch: output
+          committer_message: "chore: update 3d graph"

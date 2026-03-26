@@ -122,7 +122,7 @@ class Developer:
 
 <div align="center">
 
-<img src="https://raw.githubusercontent.com/ssj52/ssj52/output/profile-3d-contrib/profile-night-rainbow.svg" width="100%" alt="3D Contribution Graph"/>
+<img src="https://raw.githubusercontent.com/ssj52/ssj52/output/profile-3d.svg" width="100%" alt="3D Contribution Graph"/>
 
 </div>
 
